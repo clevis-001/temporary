@@ -1,0 +1,49 @@
+//COMMON
+
+.profileArea {
+  .profileItem {
+    .itemBox {
+      display: flex;
+
+      .profilePic {
+        padding: 16px 20px;
+
+        .photo {
+          width: 75px;
+          height: 75px;
+          background-color: #000;
+          border-radius: 50%;
+        }
+      }
+
+      .profileContent {
+        padding: 16px 20px
+      }
+    }
+
+  }
+
+
+}
+
+//Align
+#chatbox {
+  .header {
+    .list-group {
+      .list-group-item {
+        padding: 0px;
+
+        .input-group.mb-3 {
+          padding: 16px 20px 0 20px
+        }
+      }
+
+    }
+  }
+
+  .profileArea {
+    .accordion-body {
+      padding: 0;
+    }
+  }
+}
